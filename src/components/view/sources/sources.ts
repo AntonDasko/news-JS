@@ -55,8 +55,13 @@ class Sources {
 
     private getCategoryColor(category: string): string {
         const colors: Record<string, string> = {
-            business: '#f39c12', technology: '#3498db', general: '#95a5a6',
-            health: '#e74c3c', sports: '#2ecc71', science: '#9b59b6', entertainment: '#e84393',
+            business: '#f39c12',
+            technology: '#3498db',
+            general: '#95a5a6',
+            health: '#e74c3c',
+            sports: '#2ecc71',
+            science: '#9b59b6',
+            entertainment: '#e84393',
         };
         return colors[category] || '#bdc3c7';
     }
